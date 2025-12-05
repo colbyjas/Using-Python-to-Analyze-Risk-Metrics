@@ -1,0 +1,46 @@
+Risk-metrics-project-script-order
+
+1. settings.py
+2. data_loader.py
+3. return_calculator.py
+4. volatility.py
+5. drawdown.py
+6. ratios.py
+7. var.py
+8. cvar.py
+9. additional.py
+10. 6 visualization .pys
+11. dashboards.py (if it freezes terminal consistently, restart and run it last)
+12. statistical_tests.py
+13. var_backtest.py
+14. validation.py
+15. performance_metrics.py
+16. backtesting_plots.py
+17. backtest_dashboard.py
+18. monte_carlo.py
+19. stress_testing.py
+20. optimization.py
+21. regime_swtiching.py ** not working fully **
+22. advanced_plots_functions.py
+23. advanced_plots_generation.py
+24. regime_analysis.py
+25. distribution.py
+26. correlation.py
+27. comparative.py
+28. analysis_plots.py
+29. analysis_plots_generation.py
+30. helpers.py
+31. validators.py
+32. logger.py
+33. test_utils.py
+34. main.py
+35. run_full_analysis.py
+36. generate_full_report.py
+
+
+Note to change: the __main__ at the bottom of each file has start (etc) hardcoded, 
+    this needs to be switched to reference settings.py
+    as well as things like regime swtiching date in regime_swtiching (create varaible in settings)
+
+- Revisit regime_swtiching.py later, not currently fully working, plots are commented out for it on advanced_plots,
+    and will have to be added to advanced_plots_generation when its working
